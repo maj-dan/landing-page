@@ -27,6 +27,7 @@ body {
 }
 
 .secondary {
+    /* all secondary texts is the same size and color, so also stating the font size with the color simplify things */
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -40,6 +41,30 @@ body {
 }
 
 .darkt {
-    /* darkt stand for dark text, while dark changes the background color*/
+    /* darkt stand for "dark text", while dark changes the background color*/
     color: #1F2937;
+}
+
+/* font sizes */
+.header .logo,
+.call {
+    font-size: 24px;
+}
+
+.main .hero {
+    font-size: 48px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+.info {
+    font-size: 36px;
+}
+
+.italic {
+    /* There is only one italic text in the page, for now*/
+    font-style: italic;
+    font-size: 36px;
 }

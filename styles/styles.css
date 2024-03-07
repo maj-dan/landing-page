@@ -8,6 +8,20 @@ body {
     margin: 0;
 }
 
+/* styling the links list */
+.links {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 /* colors and font properties */
 .light {
     background-color: #F9FAF8;
@@ -67,4 +81,28 @@ body {
     /* There is only one italic text in the page, for now*/
     font-style: italic;
     font-size: 36px;
+}
+
+/* positioning and sizing */
+    /* first section */
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    width: 80%;
+}
+
+.main {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0 auto 0;
 }

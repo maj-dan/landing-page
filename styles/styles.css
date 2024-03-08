@@ -81,6 +81,7 @@ body {
     /* There is only one italic text in the page, for now*/
     font-style: italic;
     font-size: 36px;
+    font-weight: light;
 }
 
 /* positioning and sizing */
@@ -132,41 +133,60 @@ body {
 }
 
     /* second section (aka info section) */
-    .second {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 36px;
-        height: 430px;
-    }
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    height: 430px;
+}
 
-    .cards {
-        width: 70%;
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
-    }
+.cards {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
 
-    .card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 200px;
-        gap: 8px;
-    }
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 8px;
+}
 
-    .card .image {
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        box-sizing: border-box;
-        border: 4px solid #3882F6;
-        border-radius: 5%;
-    }
+.card .image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 4px solid #3882F6;
+    border-radius: 5%;
+}
 
-    .card .darkt.small {
-        text-align: center;
-    }
+.card .darkt.small {
+    text-align: center;
+}
+
+    /* third section (aka quote section) */
+.quote {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .italic {
+    max-width: 70%;
+    min-width: 920px;
+}
+
+.quote .autor {
+    align-self: flex-end;
+    margin-right: 15%;
+}

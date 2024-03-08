@@ -130,3 +130,38 @@ body {
 .main .text button {
     align-self: flex-start;
 }
+
+    /* second section (aka info section) */
+    .second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 36px;
+        height: 430px;
+    }
+
+    .cards {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .card .image {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border: 4px solid #3882F6;
+        border-radius: 5%;
+    }

@@ -190,3 +190,26 @@ body {
     align-self: flex-end;
     margin-right: 15%;
 }
+
+    /* call to action section */
+.action {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue.container {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 56px 128px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.blue.container .text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
